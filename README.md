@@ -79,11 +79,11 @@ The project showcases creative problem-solving by:
 
 1. **Download the file**
    ```bash
-   # Clone or download lost-and-found.html
+   # Clone or download index.html
    ```
 
 2. **Open in browser**
-   - Simply open `lost-and-found.html` in any modern web browser
+   - Simply open `index.html` in any modern web browser
    - No server setup required - works offline!
 
 ## 📖 Usage
