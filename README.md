@@ -22,7 +22,7 @@ Readable Tables: Information is organized into HTML <table> elements with border
 Semantic HTML5: The code uses modern HTML5 semantic tags, which improves accessibility and code clarity.
 
 How to View
-Simply open the index.html file in any modern web browser to view the live page.
+Simply open the lost-and-found.html file in any modern web browser to view the live page.
 
 Acknowledgements
 This project was created by Namratha for the CodeSpark Hackathon.
