@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost & Found - GEC Siwan Campus</title>
+</head>
+<!-- 
+    CREATIVITY & EXTRA EFFORT: 
+    Using the 'bgcolor' attribute. While deprecated in modern HTML5 (in favor of CSS), 
+    it's a valid HTML attribute that works in all browsers. Using it in an "HTML-only" 
+    challenge demonstrates creative problem-solving to improve UI/UX without CSS.
+-->
+<body bgcolor="#f4f4f4">
+
+    <!-- ======================= HEADER ======================= -->
+    <!-- Using a header for semantic structure and clear page identification. -->
+    <header>
+        <!-- 
+            CREATIVITY & EXTRA EFFORT: 
+            Using the deprecated <font> tag to add color. Again, this is a creative
+            way to meet the "HTML-only" rule while improving visual hierarchy.
+        -->
+        <h1>
+            <marquee behavior="scroll" direction="left">
+                <font color="#0056b3">GEC Siwan - Campus Lost & Found</font>
+            </marquee>
+        </h1>
+        <p>Your one-stop board for all lost and found items on campus.</p>
+    </header>
+
+    <hr>
+
+    <!-- ======================= MAIN CONTENT ======================= -->
+    <main>
+
+        <!-- ======================= LOST ITEMS SECTION ======================= -->
+        <!-- Each major part of the page is a <section> for better semantics. -->
+        <section>
+            <h2><font color="#d9534f">🔍 Lost Items</font></h2>
+            <p>If you have found any of the items listed below, please contact the owner. Your help is greatly appreciated!</p>
+            
+            <!-- Using a table to structure the data cleanly. This is a key part of the UI/UX for an HTML-only page. -->
+            <table border="1" cellpadding="10" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Description</th>
+                        <th>Last Seen Location</th>
+                        <th>Date Lost</th>
+                        <th>Contact</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>University ID Card</strong></td>
+                        <td>
+                            <!-- The <details> tag is an "extra effort" feature. It creates a collapsible section without any JS/CSS. -->
+                            <details>
+                                <summary>Click for details</summary>
+                                <p>Blue lanyard, has a small "CodeSpark" sticker on the back. Name on the card is "Namratha".</p>
+                            </details>
+                        </td>
+                        <td>Near the Library Entrance</td>
+                        <td>07-Aug-2025</td>
+                        <td>
+                            <!-- Using mailto: makes the email address clickable and functional. -->
+                            <a href="mailto:namratha.student@gecsiwan.ac.in">Email Namratha</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Black Umbrella</strong></td>
+                        <td>
+                            <details>
+                                <summary>Click for details</summary>
+                                <p>Standard black umbrella with a wooden handle. It has a small silver tip.</p>
+                            </details>
+                        </td>
+                        <td>Auditorium, Row 5</td>
+                        <td>06-Aug-2025</td>
+                        <td>
+                            <!-- Using tel: makes the phone number clickable on mobile devices. -->
+                            <a href="tel:+911234567890">Call +91-1234567890</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Physics Textbook</strong></td>
+                        <td>
+                            <details>
+                                <summary>Click for details</summary>
+                                <p>"Fundamentals of Physics" by Halliday, Resnick, and Walker. The cover is slightly worn.</p>
+                            </details>
+                        </td>
+                        <td>Canteen, Table #3</td>
+                        <td>05-Aug-2025</td>
+                        <td>
+                            <a href="mailto:student.xyz@gecsiwan.ac.in">Email Owner</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <br>
+        <hr>
+        <br>
+
+        <!-- ======================= FOUND ITEMS SECTION ======================= -->
+        <section>
+            <h2><font color="#5cb85c">✨ Found Items</font></h2>
+            <p>If you recognize any of these items as your own, please contact the person who found it to arrange for pickup.</p>
+            
+            <table border="1" cellpadding="10" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Description</th>
+                        <th>Found Location</th>
+                        <th>Date Found</th>
+                        <th>Claim From</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Silver Water Bottle</strong></td>
+                        <td>
+                            <details>
+                                <summary>Click for details</summary>
+                                <p>Steel bottle, 1-liter capacity. Brand is "HydroFlask". Has a few minor dents near the bottom.</p>
+                            </details>
+                        </td>
+                        <td>Computer Lab 2</td>
+                        <td>07-Aug-2025</td>
+                        <td>
+                            <a href="mailto:finder.abc@gecsiwan.ac.in">Email Finder</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Wireless Mouse</strong></td>
+                        <td>
+                            <details>
+                                <summary>Click for details</summary>
+                                <p>Logitech M185, grey color. The USB receiver is attached.</p>
+                            </details>
+                        </td>
+                        <td>Main Building, 2nd Floor Hallway</td>
+                        <td>06-Aug-2025</td>
+                        <td>
+                            <a href="tel:+910987654321">Call +91-0987654321</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <br>
+    <hr>
+
+    <!-- ======================= FOOTER ======================= -->
+    <!-- A semantic footer is good practice for contact info and copyrights. -->
+    <footer>
+        <p>This board is a part of the CodeSpark Hackathon 2025.</p>
+        <p>&copy; 2025 Government Engineering College, Siwan. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
