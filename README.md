@@ -113,20 +113,6 @@ This project was developed for the **CodeSpark Hackathon 2025** with strict cons
 3. **Functional Links**: Implemented `mailto:` and `tel:` for direct contact
 4. **Semantic Structure**: Proper HTML5 semantic markup for accessibility
 
-## 👨‍💻 Author
-
-**Namratha** - *CodeSpark Hackathon 2025 Participant*
-- **Institution**: Government Engineering College, Siwan
-- **Project**: Campus Lost & Found Board
-- **Technology**: HTML5 (Pure HTML Implementation)
-
-## 📄 License
-
-This project is part of the CodeSpark Hackathon 2025 submission.
-
----
-
-<div align="center">
 
 **Made with ❤️ for CodeSpark Hackathon 2025**
 
